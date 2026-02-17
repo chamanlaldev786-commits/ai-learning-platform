@@ -30,10 +30,11 @@ export default function Dashboard() {
   // Voice for AI insight
   const [voiceOn, setVoiceOn] = useState(true);
   useEffect(() => {
-    const saved = localStorage.getItem("voiceOn");
-    if (saved !== null) setVoiceOn(saved === "true");
-  }, []);
-
+    if (typeof window !== "undefined") {
+      const saved = window.localStorage.getItem("vioceOn");
+      if (saved !== null) setVoiceOn(saved === "true")
+    }
+  }, [])
   useEffect(() => {
     if (voiceOn) {
       const u = new SpeechSynthesisUtterance(
