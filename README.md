@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 AI Learning Platform
 
 > A modern, responsive, and intelligent learning platform powered by AI technology. Built with Next.js 16, React 19, and Tailwind CSS 4.
@@ -411,3 +412,7 @@ For support, email chaman@example.com or open an issue in the repository.
 Made with ❤️ by **Chaman Lal**
 
 </div>
+=======
+# ai-learning-platform
+A modern, responsive, and AI-powered e-learning platform built with Next.js and React. This platform provides an intuitive learning experience with smart features and beautiful design.
+>>>>>>> c82b8e87dfb525c634b0128e6fe262e5de59ea63
