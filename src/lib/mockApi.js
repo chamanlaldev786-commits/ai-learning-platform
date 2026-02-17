@@ -24,6 +24,24 @@ export const mockCourses = [
 
 // src/lib/mockApi.js
 
+export const mockAnalytics = {
+  totalUsers: 100,
+  totalQuizzes: 20,
+  averageScore: 75,
+};
+
+export const mockFAQ = [
+  {
+    question: "how to use platform?",
+    answer: "Login and start learning. ",
+  },
+];
+export const mockLeaderboard = [
+  { name: "Chamanlal", score: 95 },
+  { name: "Ali", score: 90 },
+];
+
+
 // This is a mock data for quizzes in your AI Learning Platform
 export const mockQuizzes = [
   {
